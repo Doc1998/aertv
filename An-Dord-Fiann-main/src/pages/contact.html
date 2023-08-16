@@ -1,0 +1,62 @@
+---
+layout: 'base.html'
+description: 'Meta description for the page'
+metaTitle: 'Title that shows up on google searches'
+tagTitle: 'Contact'
+preloadImg: '/images/Giants-Causeway-1920w.webp'
+preloadCSS: '/css/contact.css'
+permalink: 'contact/'
+image: 'https://luminous-syrniki-fd27d1.netlify.app/images/patrick.jpg'
+eleventyNavigation:
+    key: Contact
+    order: 600
+---
+
+<!-- Enter html code below -->
+
+<!-- ============================================ -->
+<!--                    LANDING                   -->
+<!-- ============================================ -->
+
+<section id="int-hero">
+  <h1 id="home-h">Contact Us</h1>
+  {% image './src/images/Giants-Causeway.jpg', 'Giants-Causeway', '', 'lazy', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px'%}
+</section>
+
+<!-- ============================================ -->
+    <!--                   Contact                    -->
+    <!-- ============================================ -->
+
+    <section id="contact-718">
+      <div class="cs-container">
+          <picture class="cs-picture"  aria-hidden="true">
+              <source media="(max-width: 600px)" srcset="/images/blog/patrick.jpg">
+              <source media="(min-width: 601px)" srcset="/images/blog/patrick.jpg">
+              <img decoding="async" src="/images/blog/patrick.jpg" alt="St Patrick" width="610" height="425">
+          </picture>
+          <div class="cs-content">
+              <span class="cs-topper">Contact Us</span>
+              <h2 class="cs-title">Get in Touch</h2>
+              <!--Form-->
+              <form class="cs-form" id="cs-form-718" name="Contact Form" method="POST" data-netlify="true>
+                  <label class="cs-label">
+                      Name
+                      <input class="cs-input" required type="text" id="name-718" name="name" placeholder="Name">
+                  </label>
+                  <label class="cs-label cs-email">
+                      Email
+                      <input class="cs-input" required type="text" id="email-718" name="email" placeholder="Email">
+                  </label>
+                  <label class="cs-label cs-phone">
+                      Phone
+                      <input class="cs-input" required type="text" id="phone-718" name="phone" placeholder="Phone">
+                  </label>
+                  <label class="cs-label">
+                      Message
+                      <textarea class="cs-input cs-textarea" required name="Message" id="message-718" placeholder="Write message..."></textarea>
+                  </label>
+                  <button class="cs-button-solid cs-submit" type="submit">Send Message</button>
+              </form>
+          </div>
+      </div>
+  </section>

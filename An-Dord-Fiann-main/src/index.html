@@ -1,0 +1,103 @@
+---
+layout: 'base.html'
+description: 'Meta description for the page'
+metaTitle: 'Title that shows up on google searches'
+tagTitle: 'Home'
+preloadImg: '/images/Giants-Causeway-1920w.webp'
+preloadCSS: '/css/local.css'
+permalink: '/'
+image: 'https://luminous-syrniki-fd27d1.netlify.app/images/Giants-Causeway-1920w.webp'
+eleventyNavigation:
+  key: Home
+  order: 100
+---
+<!-- Enter html code below -->
+
+<!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+
+<section id="hero">
+  <div class="cs-container">
+    <div class="cs-flex-group">
+      <span class="cs-topper">An Dord Fiann</span>
+      <h1 class="cs-title">Irish Catholic and Nationalist Journal</h1>
+      <p class="cs-text">
+        <i>
+          "I am nothing so new-fangled as a socialist or a syndicalist. I am old fashioned enough to be both a Catholic and Nationalist." -Patrick Pearse
+        </i>
+      </p>
+      <a href="/latest" class="cs-button-solid">Latest Articles</a>
+      <a href="/blog/about/" class="cs-button-transparent">
+  
+        About
+      </a>
+    </div>
+  </div>
+
+  <!-- Background Image -->
+  {% image './src/images/landing.jpg', 'mountains', 'cs-picture', 'eager', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px'%}
+</section>
+
+
+<!-- ============================================ -->
+    <!--                 Side By Side                 -->
+    <!-- ============================================ -->
+    {%- for post in collections.featured | reverse -%}
+    <section id="sbs-253">
+      <div class="cs-container">
+          <!-- Left Image Section -->
+          <picture class="cs-left" aria-hidden="true">
+              <source media="(max-width: 600px)" srcset="{{ post.data.image }}">
+              <source media="(min-width: 601px)" srcset="{{ post.data.image }}">
+              <img loading="lazy" decoding="async" src="{{ post.data.image }}" alt="hiker" width="522" height="522">
+          </picture>
+          <!-- Right Content Section-->
+          <div class="cs-right">
+              <span class="cs-topper">{{ post.data.author }}</span>
+              <h2 class="cs-title">{{ post.data.blogTitle }}</h2>
+              <p class="cs-text">
+                {{ post.data.blogDescription }}
+              </p>
+              <a class="cs-button-solid" aria-label="learn more about our programs" href="{{ post.url }}">Continue Reading</a>
+          </div>
+      </div>
+  </section>
+{%- endfor -%}
+                              
+
+
+                              
+<!-- ============================================ -->
+<!--             Final Call to Action             -->
+<!-- ============================================ -->
+
+<section id="cta">
+  <div class="container">
+    <h2 class="title">
+     An Dord Fiann<br/>
+      
+    </h2>
+    <p>
+      “If death comes suddenly to me, it will be because of the great love I bear to the Gael!” -Naomh Colm Cille
+    </p>
+  </div>
+  {% image './src/images/landing.jpg', 'green valleys', '', 'lazy', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px'%}
+</section>
+
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+<script>
+  if (window.netlifyIdentity) {
+    window
+      .netlifyIdentity
+      .on('init', (user) => {
+        if (!user) {
+          window
+            .netlifyIdentity
+            .on('login', () => {
+              document.location.href = '/admin/';
+            });
+        }
+      });
+  }
+</script>

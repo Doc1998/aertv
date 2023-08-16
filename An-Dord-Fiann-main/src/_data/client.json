@@ -1,0 +1,14 @@
+{
+  "name": "An Dord Fiann",
+  "email": "email@email.com",
+  "phone": "555-555-5555",
+  "phoneFormatted": "(555) 555-5555",
+  "address": {
+    "lineOne": "First Address Line",
+    "lineTwo": "Second Address Line, If Needed",
+    "city": "Dublin",
+    "postcode": "P11PP11",
+    "mapLink": ""
+  },
+  "domain": "www.andordfiann.ie"
+}
