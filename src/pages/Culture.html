@@ -1,16 +1,17 @@
 ---
 layout: 'base.html'
 description: 'Meta description for the page'
-metaTitle: 'Articles - Topic Politics'
+metaTitle: 'Articles - Topic Folklore'
 tagTitle: 'Latest Articles'
 preloadImg: '/images/Giants-Causeway-1920w.webp'
 preloadCSS: '/css/blog.css'
-permalink: 'Politics/'
+permalink: 'Folklore/'
 image: 'https://luminous-syrniki-fd27d1.netlify.app/images/patrick.jpg'
 eleventyNavigation:
-    key: Politics
-    order: 400
+    key: Culture
+    order: 500
 ---
+
 
 <!-- Enter html code below -->
 <!-- ============================================ -->
@@ -18,7 +19,7 @@ eleventyNavigation:
 <!-- ============================================ -->
 
 <section id="int-hero">
-    <h1 id="home-h">Politics</h1>
+    <h1 id="home-h">Culture</h1>
     {% image './src/images/Giants-Causeway.jpg', 'Giants-Causeway', '', 'lazy', '(max-width: 850px) 850px, 1920px'%}
 </section>
 
@@ -33,10 +34,10 @@ eleventyNavigation:
         <!--                 Blog Articles                -->
         <!-- ============================================ -->
 
-        {% if collections.politics | length == 0 %}
+        {% if collections.folklore | length == 0 %}
             <h1>No Recent Posts</h1>
         {% endif %}
-        {%- for post in collections.politics | reverse -%}
+        {%- for post in collections.folklore | reverse -%}
             <article class="recent-articles">
                 <!--Main Article Image-->
                 <picture class="blog-mainImage">

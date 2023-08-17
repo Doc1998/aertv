@@ -13,31 +13,59 @@ eleventyNavigation:
 ---
 <!-- Enter html code below -->
 
-<!-- ============================================ -->
-<!--                    Hero                      -->
+
+
+    <!-- ============================================ -->
+<!--                    Blog                      -->
 <!-- ============================================ -->
 
-<section id="hero">
+<section id="blog-987">
   <div class="cs-container">
-    <div class="cs-flex-group">
-      <span class="cs-topper">An Dord Fiann</span>
-      <h1 class="cs-title">Irish Catholic and Nationalist Journal</h1>
-      <p class="cs-text">
-        <i>
-          "I am nothing so new-fangled as a socialist or a syndicalist. I am old fashioned enough to be both a Catholic and Nationalist." -Patrick Pearse
-        </i>
-      </p>
-      <a href="/latest" class="cs-button-solid">Latest Articles</a>
-      <a href="/blog/about/" class="cs-button-transparent">
-  
-        About
-      </a>
-    </div>
+      <ul class="cs-card-group">
+          <li class="cs-item">
+              <picture class="cs-picture">
+                  <!--Mobile Image-->
+                  <source media="(max-width: 600px)" srcset="/assets/images/case-study-mobile.webp">
+                  <!--Tablet and above Image-->
+                  <source media="(min-width: 601px)" srcset="/assets/images/case-study-tab.webp">
+                  <img loading="lazy" decoding="async" src="/assets/images/case-study-desk.webp" alt="stylist" width="413" height="480">
+              </picture>
+              <div class="cs-info">
+                  <span class="cs-date">
+                      <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/calendar.svg" alt="stylist" width="20" height="20">
+                      27 JUL, 2023
+                  </span>
+                  <h3 class="cs-h3">SEO Case Study : How A Cork Moving Company's website became a passive sales machine</h3>
+                  <span class="cs-desc">
+                      In this blog we will breakdown the exact SEO strategy we implemented to help this Cork moving company to rise the Google rankings and book €‎1000s worth of jobs.
+                  </span>
+                  <a href="/blog/seo-case-study-how-a-cork-moving-company's-website-became-a-passive-sales-machine/" class="cs-link">Read More</a>
+              </div>
+          </li>
+          <li class="cs-item">
+              <picture class="cs-picture">
+                  <!--Mobile Image-->
+                  <source media="(max-width: 600px)" srcset="https://irelandwebdesigns.ie/images/blog/cleanway-ie-1024x768desktop-3df4c5.png">
+                  <!--Tablet and above Image-->
+                  <source media="(min-width: 601px)" srcset="https://irelandwebdesigns.ie/images/blog/cleanway-ie-1024x768desktop-3df4c5.png">
+                  <img loading="lazy" decoding="async" src="https://irelandwebdesigns.ie/images/blog/cleanway-ie-1024x768desktop-3df4c5.png" alt="stylist" width="413" height="480">
+              </picture>
+              <div class="cs-info">
+                  <span class="cs-date">
+                      <img class="cs-icon" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/calendar.svg" alt="stylist" width="20" height="20">
+                      03 Aug, 2023
+                  </span>
+                  <h3 class="cs-h3">How Cleanway's New Website Cleaned Up €1k in Jobs in Just One Week!</h3>
+                  <span class="cs-desc">
+                      In this article, discover how Cleanway achieved remarkable success, securing over €1k in jobs within a week of launching their website with no existing online presence or previous customers!
+                  </span>
+                  <a href="" class="cs-link">Read More</a>
+              </div>
+          </li>
+      </ul>
   </div>
-
-  <!-- Background Image -->
-  {% image './src/images/landing.jpg', 'mountains', 'cs-picture', 'eager', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px'%}
 </section>
+
 
 
 <!-- ============================================ -->

@@ -4,8 +4,8 @@
 /* Mobile */
 @media only screen and (min-width: 0em) {
   :root {
-    --primary: #676858;
-    --primaryLight: #FFC156;
+    --primary: #eaff00;
+    --primaryLight: #219798;
     --headerColor: #1a1a1a;
     --bodyTextColor: #4E4B66;
     --bodyTextColorWhite: #FAFBFC;
@@ -18,14 +18,6 @@
     --sectionPadding: clamp(3.75em, 7.82vw, 6.25em) 1rem;
   }
   /* roboto-regular - latin */
-  @font-face {
-    font-family: 'Caudex';
-    font-style: normal;
-    font-weight: 400;
-    src: local(''), url('/assets/fonts/Caudex-Regular.ttf') format('ttf'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('/assets/fonts/Caudex-Regular.ttf') format('woff2');
-    
-    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
   /* roboto-700 - latin */
   @font-face {
     font-family: 'Caudex';
@@ -162,7 +154,7 @@
     width: 100%;
     z-index: 10000;
     height: auto;
-    font-family: 'Caudex';
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
   #navigation .background-color-div {
     position: absolute;
@@ -263,7 +255,7 @@
     z-index: -1;
     overflow: hidden;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    background-color: #266039;
+    background-color: #000000;
     top: 3.7rem;
     padding-top: 0;
     height: 0;
@@ -281,6 +273,7 @@
     opacity: 0;
     transform: translateY(-0.4375rem) rotateX(90deg);
     transition: opacity .5s, transform .5s;
+    color: black;
   }
   #navigation #navbar-menu ul li:nth-of-type(1) {
     transition-delay: .01s;
@@ -306,7 +299,7 @@
   #navigation #navbar-menu ul li a {
     text-decoration: none;
     text-transform: uppercase;
-    color: #FFC156;
+    color: white;
     font-size: 1.1875rem;
     text-align: center;
     display: inline-block;
@@ -342,14 +335,14 @@
   #navigation {
     width: 100%;
     height: 6.25rem;
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     z-index: 200000;
     padding: 0;
     display: flex;
     align-items: center;
-    font-family: 'Caudex';
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-color: none;
     }
   #navigation .background-color-div {
@@ -395,7 +388,7 @@
     text-transform: uppercase;
     position: relative;
     z-index: 1;
-    color: #FFC156;
+    color: black;
     transition: color .3s;
   }
   #navigation #navbar-menu ul li a:before {
