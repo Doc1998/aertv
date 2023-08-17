@@ -793,7 +793,7 @@
     font-family: 'Caudex', 'Arial', sans-serif;
     /* 60px - 100px top and bottom */
     padding: clamp(3.75em, 7.82vw, 6.25em) 1em;
-    background-color: #1a1a1a;
+    background-color: #000000;
   }
   #cs-footer .cs-container {
     width: 100%;
@@ -897,7 +897,7 @@
   #cs-footer .cs-social-link {
     width: 1.5rem;
     height: 1.5rem;
-    background-color: #4E4B66;
+    background-color: #000000;
     border-radius: 50%;
     display: flex;
     justify-content: center;

@@ -4,7 +4,7 @@
 /* Mobile */
 @media only screen and (min-width: 0em) {
   :root {
-    --primary: #D98900;
+    --primary: #676858;
     --primaryLight: #FFC156;
     --headerColor: #1a1a1a;
     --bodyTextColor: #4E4B66;
@@ -168,7 +168,6 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #266039;
     width: 100%;
     height: 100%;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -351,7 +350,7 @@
     display: flex;
     align-items: center;
     font-family: 'Caudex';
-    background-color: #266039;
+    background-color: none;
     }
   #navigation .background-color-div {
     position: absolute;
@@ -580,7 +579,7 @@
 /* Mobile */
 @media only screen and (min-width: 0em) {
   #footer {
-    background: #1C1C1C;
+    background: #000000;
     padding: 5.25rem 0 1.25rem;
     font-size: min(4vw, 1.2em);
   }
