@@ -1,12 +1,8 @@
 ---
 pageName: inspired-and-inerrant
-blogTitle: "Introducing Inspired and Inerrant: A New Guide to the Old Testament"
-titleTag: "Introducing Inspired and Inerrant: A New Guide to the Old Testament"
-blogDescription: 'Author Sean Pokall gives a brief summary of his book "Inspired
-  and Inerrant: A New Guide to the Old Testament". This book (which was granted
-  an Imprimatur by the Archbishop of Tuam) provides an introduction, summary and
-  additional commentary to the Old Testament, with reference to the
-  foreshadowing of events to come in the New Testament. '
+blogTitle: "Exploring TV Habits in Ireland: 25 Hours per Week and Popular TV Stations"
+titleTag: "Exploring TV Habits in Ireland: 25 Hours per Week and Popular TV Stations"
+blogDescription: 'Exploring TV Habits in Ireland: 25 Hours per Week and Popular TV Stations '
 author: Sean Patrick Pokall
 date: 2023-03-23T11:21:30.375Z
 tags:
@@ -18,9 +14,11 @@ imageAlt: Saint Jerome writing the Vulgate
 ---
 <!--StartFragment-->
 
-“Ignorance of Scripture is ignorance of Christ.” These words of wisdom, given to us by Saint Jerome more than 1,600 years ago, remain as true for us today as they did in the time of this great Father and Doctor of the Church. Having undertaken the tremendous task of translating the Sacred Scriptures from their original languages into Latin, this meticulous and diligent Saint from Late Antiquity gave us the Church’s officially promulgated Latin version of the Holy Bible – the Vulgate.
+Television has long been a cornerstone of entertainment and information consumption across the globe, and Ireland is no exception. A particularly intriguing fact sheds light on the television habits of the Irish population: on average, an Irish person spends about 25 hours per week watching TV. This statistic offers a window into both the cultural preferences and media landscape of the country, raising several interesting points to consider.
 
-Along with Sacred Tradition (the teachings of Jesus Christ as given to the Apostles), Sacred Scripture is one of the two sources of God’s Revelation about Himself to His creatures. It therefore follows that Sacred Scripture, which we more commonly refer to as the Holy Bible, is a primary source of the history, teachings, doctrines and morals of our One, Holy, Catholic and Apostolic Church.
+Cultural Insights and Entertainment Dynamics
+
+The 25-hour-per-week TV watching habit reflects a profound cultural preference for this traditional medium. Despite the surge of digital platforms and online streaming services, television continues to captivate Irish viewers. This enduring trend suggests that TV remains a powerful force in shaping cultural norms, values, and shared experiences.
 
 And yet, almost two thousand years after our Church’s institution by none other than Our Lord Himself, ignorance of Scripture continues to remain at an all-time high, with the flock of Christ failing to feast on every Word that proceeds from the mouth of God. Why is this? we might ask. From a purely practical point of view, Biblical ignorance in a 21st century nation such as Ireland, can now only be attributed to the human will as opposed to any of the former obstacles that may have proven genuine impediments to an adequate knowledge of Scripture.
 
