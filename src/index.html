@@ -96,36 +96,3 @@ eleventyNavigation:
 
 
                               
-<!-- ============================================ -->
-<!--             Final Call to Action             -->
-<!-- ============================================ -->
-
-<section id="cta">
-  <div class="container">
-    <h2 class="title">
-     An Dord Fiann<br/>
-      
-    </h2>
-    <p>
-      “If death comes suddenly to me, it will be because of the great love I bear to the Gael!” -Naomh Colm Cille
-    </p>
-  </div>
-  {% image './src/images/landing.jpg', 'green valleys', '', 'lazy', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px'%}
-</section>
-
-<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-<script>
-  if (window.netlifyIdentity) {
-    window
-      .netlifyIdentity
-      .on('init', (user) => {
-        if (!user) {
-          window
-            .netlifyIdentity
-            .on('login', () => {
-              document.location.href = '/admin/';
-            });
-        }
-      });
-  }
-</script>
