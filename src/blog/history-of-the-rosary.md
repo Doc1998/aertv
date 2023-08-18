@@ -16,7 +16,7 @@ tags:
   - culture
   - entertainment
   - latest
-image: /images/blog/watching-tv-quarantine.webp
+image: /images/blog/ezgif.com-webp-to-jpg.jpg
 imageAlt: Family watching tv
 ---
 <!--StartFragment-->
