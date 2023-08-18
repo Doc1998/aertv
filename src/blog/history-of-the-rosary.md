@@ -15,8 +15,9 @@ tags:
   - post
   - culture
   - entertainment
+  - latest
 image: /images/blog/watching-tv-quarantine.webp
-imageAlt: Patrick Pearse
+imageAlt: Family watching tv
 ---
 <!--StartFragment-->
 
