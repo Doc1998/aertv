@@ -1,15 +1,21 @@
 ---
-pageName: about
-blogTitle: "About "
-titleTag: About
-blogDescription: About
-author: An Dord Fiann
+pageName: "Exploring TV Habits in Ireland: 25 Hours per Week and Popular TV Stations"
+blogTitle: "Exploring TV Habits in Ireland: 25 Hours per Week and Popular TV Stations"
+titleTag: "Exploring TV Habits in Ireland: 25 Hours per Week and Popular TV Stations"
+blogDescription: "Television has long been a cornerstone of entertainment and
+  information consumption across the globe, and Ireland is no exception. A
+  particularly intriguing fact sheds light on the television habits of the Irish
+  population: on average, an Irish person spends about 25 hours per week
+  watching TV. This statistic offers a window into both the cultural preferences
+  and media landscape of the country, raising several interesting points to
+  consider."
+author: Mark
 date: 2023-03-08T20:57:28.755Z
 tags:
   - post
-  - religion
-  - history
-image: /images/blog/c5c686e165945503875d63c6cdf1f330.jpg
+  - culture
+  - entertainment
+image: /images/blog/watching-tv-quarantine.webp
 imageAlt: Patrick Pearse
 ---
 <!--StartFragment-->
