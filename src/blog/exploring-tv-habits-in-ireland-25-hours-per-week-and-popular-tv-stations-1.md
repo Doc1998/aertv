@@ -16,7 +16,7 @@ tags:
   - culture
   - entertainment
   - featured
-image: /images/blog/family.jpg
+image:
 imageAlt: family
 ---
 <!--StartFragment-->
