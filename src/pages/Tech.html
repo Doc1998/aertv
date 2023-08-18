@@ -5,7 +5,7 @@ metaTitle: 'Articles - Topic Religion'
 tagTitle: 'Latest Articles'
 preloadImg: '/images/Giants-Causeway-1920w.webp'
 preloadCSS: '/css/blog.css'
-permalink: 'Religion/'
+permalink: 'Tech/'
 image: 'https://luminous-syrniki-fd27d1.netlify.app/images/patrick.jpg'
 eleventyNavigation:
     key: Tech
@@ -30,7 +30,7 @@ eleventyNavigation:
         <!--                 Blog Articles                -->
         <!-- ============================================ -->
 
-        {% if collections.religion | length == 0 %}
+        {% if collections.tech | length == 0 %}
             <h1>No Recent Posts</h1>
         {% endif %}
         {%- for post in collections.religion | reverse -%}

@@ -5,7 +5,7 @@ metaTitle: 'Articles - Topic Folklore'
 tagTitle: 'Latest Articles'
 preloadImg: '/images/Giants-Causeway-1920w.webp'
 preloadCSS: '/css/blog.css'
-permalink: 'Folklore/'
+permalink: 'Culture/'
 image: 'https://luminous-syrniki-fd27d1.netlify.app/images/patrick.jpg'
 eleventyNavigation:
     key: Culture
@@ -27,7 +27,7 @@ eleventyNavigation:
         <!--                 Blog Articles                -->
         <!-- ============================================ -->
 
-        {% if collections.folklore | length == 0 %}
+        {% if collections.culture | length == 0 %}
             <h1>No Recent Posts</h1>
         {% endif %}
         {%- for post in collections.folklore | reverse -%}

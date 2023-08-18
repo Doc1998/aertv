@@ -5,7 +5,7 @@ metaTitle: 'Articles - Topic Politics'
 tagTitle: 'Latest Articles'
 preloadImg: '/images/Giants-Causeway-1920w.webp'
 preloadCSS: '/css/blog.css'
-permalink: 'Politics/'
+permalink: 'Entertainment/'
 image: 'https://luminous-syrniki-fd27d1.netlify.app/images/patrick.jpg'
 eleventyNavigation:
     key: Entertainment
@@ -25,7 +25,7 @@ eleventyNavigation:
         <!--                 Blog Articles                -->
         <!-- ============================================ -->
 
-        {% if collections.politics | length == 0 %}
+        {% if collections.entertainment | length == 0 %}
             <h1>No Recent Posts</h1>
         {% endif %}
         {%- for post in collections.politics | reverse -%}
