@@ -16,6 +16,7 @@ tags:
   - culture
   - entertainment
   - latest
+  - featured
 image: /images/blog/ezgif.com-webp-to-jpg.jpg
 imageAlt: Family watching tv
 ---
