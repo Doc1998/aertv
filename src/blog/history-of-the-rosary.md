@@ -1,5 +1,5 @@
 ---
-pageName: "Exploring TV Habits in Ireland: 25 Hours per Week and Popular TV Stations"
+pageName: Exploring TV Habits in Ireland 25 Hours per Week and Popular TV Stations
 blogTitle: "Exploring TV Habits in Ireland: 25 Hours per Week and Popular TV Stations"
 titleTag: "Exploring TV Habits in Ireland: 25 Hours per Week and Popular TV Stations"
 blogDescription: "Television has long been a cornerstone of entertainment and
