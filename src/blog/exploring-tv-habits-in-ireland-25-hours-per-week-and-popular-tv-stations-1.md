@@ -16,7 +16,7 @@ tags:
   - culture
   - entertainment
   - featured
-image: https://moonlit-kulfi-667d95.netlify.app/images/blog/family.jpg
+image: /images/blog/family.jpg
 imageAlt: family
 ---
 <!--StartFragment-->
