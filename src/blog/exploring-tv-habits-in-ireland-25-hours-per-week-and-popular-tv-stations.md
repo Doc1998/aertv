@@ -16,7 +16,11 @@ tags:
   - entertainment
   - culture
   - featured
+<<<<<<< HEAD
 image: 
+=======
+image: https://moonlit-kulfi-667d95.netlify.app/images/blog/family.jpg
+>>>>>>> 062b5d53abe0c264559498772448c8ced8765040
 imageAlt: Family watching tv
 ---
 <!--StartFragment-->
