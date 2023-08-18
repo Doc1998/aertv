@@ -16,7 +16,7 @@ tags:
   - entertainment
   - culture
   - featured
-image: /images/blog/family.jpg
+image: 
 imageAlt: Family watching tv
 ---
 <!--StartFragment-->
