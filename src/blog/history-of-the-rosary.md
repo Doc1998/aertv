@@ -17,7 +17,7 @@ tags:
   - entertainment
   - latest
   - featured
-image: /images/blog/ezgif.com-webp-to-jpg.jpg
+image: /images/blog/family.jpg
 imageAlt: Family watching tv
 ---
 <!--StartFragment-->
