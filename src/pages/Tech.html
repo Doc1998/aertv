@@ -33,7 +33,7 @@ eleventyNavigation:
         {% if collections.tech | length == 0 %}
             <h1>No Recent Posts</h1>
         {% endif %}
-        {%- for post in collections.religion | reverse -%}
+        {%- for post in collections.tech | reverse -%}
             <article class="recent-articles">
                 <!--Main Article Image-->
                 <picture class="blog-mainImage">
