@@ -2,14 +2,14 @@
 pageName: inspired-and-inerrant
 blogTitle: "Exploring TV Habits in Ireland: 25 Hours per Week and Popular TV Stations"
 titleTag: "Exploring TV Habits in Ireland: 25 Hours per Week and Popular TV Stations"
-blogDescription: 'Exploring TV Habits in Ireland: 25 Hours per Week and Popular TV Stations '
+blogDescription: "Exploring TV Habits in Ireland: 25 Hours per Week and Popular TV Stations "
 author: Sean Patrick Pokall
 date: 2023-03-23T11:21:30.375Z
 tags:
   - post
   - religion
   - featured
-image: /images/blog/jerome.jpg
+image: /images/blog/family.jpg
 imageAlt: Saint Jerome writing the Vulgate
 ---
 <!--StartFragment-->
