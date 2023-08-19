@@ -148,7 +148,7 @@
 /* Mobile - Top Drop Down */
 @media only screen and (max-width: 1023px) {
   #navigation {
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
@@ -443,10 +443,10 @@
     background-color: #fff;
   }
   body.dark-mode #navigation .logo .light {
-    display: block;
+    display: none !important;
   }
   body.dark-mode #navigation .logo .dark {
-    display: none !important;
+    display: block;
   }
   body.dark-mode #navigation #navbar-menu {
     background-color: var(--medium);
