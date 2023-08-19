@@ -16,7 +16,7 @@ tags:
   - culture
   - entertainment
   - featured
-image: /images/blog/family.jpg
+image: /images/blog/ezgif.com-webp-to-jpg.jpg
 imageAlt: family
 ---
 <!--StartFragment-->
