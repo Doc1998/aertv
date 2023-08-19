@@ -10,13 +10,6 @@ eleventyComputed:
     permalink: '/blog/{{ pageName | slug }}/index.html'
 ---
 
-<!-- ============================================ -->
-<!--                    LANDING                   -->
-<!-- ============================================ -->
-
-<section id="int-hero">
-    {% image './src/images/Giants-Causeway.jpg', 'Giants-Causeway', '', 'lazy', '(max-width: 850px) 850px, 1920px'%}
-</section>
 
 <!-- ============================================ -->
 <!--              Main Blog Content               -->
@@ -38,10 +31,8 @@ eleventyComputed:
             <!--Article Info-->
             <div class="article-group">
                 <h1 class="blog-h1">{{ blogTitle }}</h1>
-                <h1 class="blog-h1">{{ image }}</h1>
-
                 <div class="blog-authorGroup">
-                    <!--Author Image-->
+                    <!--Author Image
                     <picture class="blog-author-img">
                         <img
             src="/assets/svgs/profile.svg"
@@ -50,7 +41,7 @@ eleventyComputed:
             height="32"
             decoding="async"
 />
-                    </picture>
+                    </picture>-->
                     <span class="blog-author">{{ author }}</span>
                     <span aria-hidden="true" class="blog-dot"></span>
                     <!--Blog Date-->
@@ -78,11 +69,11 @@ eleventyComputed:
 <section id="cta">
     <div class="container">
       <h2 class="title">
-       An Dord Fiann<br/>
+       AerTV<br/>
         
       </h2>
       <p>
-        
+        Get the latest news in Irish tech & culture!
       </p>
     </div>
     {% image './src/images/landing.jpg', 'green valleys', '', 'lazy', '(max-width: 400px) 400px, (max-width: 850px) 850px, 1920px'%}
