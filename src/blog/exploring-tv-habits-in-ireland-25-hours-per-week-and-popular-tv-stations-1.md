@@ -1,8 +1,6 @@
 ---
-pageName: Exploring TV Habits in Ireland What are the average hours spent
-  watching tv and the most popular tv station
-blogTitle: Exploring TV Habits in Ireland What Are The Average Hours Spent
-  Watching Tv And The Most Popular Tv Station
+pageName: Exploring TV Habits in Ireland 25 Hours per Week and Popular TV Stations
+blogTitle: "Exploring TV Habits in Ireland: 25 Hours per Week and Popular TV Stations"
 titleTag: "Exploring TV Habits in Ireland: 25 Watch Hours per Week and Popular
   TV Stations"
 blogDescription: "Television has long been a cornerstone of entertainment and
