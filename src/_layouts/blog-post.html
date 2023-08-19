@@ -6,7 +6,7 @@ eleventyComputed:
     metaTitle: '{{ blogTitle }}'
     tagTitle: '{{ titleTag }}'
     preloadImg: '{{ image }}'
-    image: 'https://luminous-syrniki-fd27d1.netlify.app{{image}}'
+    image: 'https://moonlit-kulfi-667d95.netlify.app/{{image}}'
     permalink: '/blog/{{ pageName | slug }}/index.html'
 ---
 
@@ -38,6 +38,8 @@ eleventyComputed:
             <!--Article Info-->
             <div class="article-group">
                 <h1 class="blog-h1">{{ blogTitle }}</h1>
+                <h1 class="blog-h1">{{ image }}</h1>
+
                 <div class="blog-authorGroup">
                     <!--Author Image-->
                     <picture class="blog-author-img">
