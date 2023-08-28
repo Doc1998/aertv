@@ -1,4 +1,270 @@
+/*-- -------------------------- -->
+<---       Side By Side         -->
+<--- -------------------------- -*/
 
+/* Mobile - 360px */
+@media only screen and (min-width: 0em) {
+ 
+  #sbs-253,
+  #sbs-r-253,
+  #sbs-t-253 {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    padding: 0;
+    position: relative;
+    z-index: 1;
+  }
+  #sbs-253 .cs-container,
+  #sbs-r-253 .cs-container,
+  #sbs-t-253 .cs-container {
+    width: 100%;
+    /* changes to 1280px on tablet */
+    max-width: 34.375em;
+    padding: var(--sectionPadding);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: 2em;
+    background: linear-gradient(90deg, rgba(241, 241, 244, 0) 0%, #f1f1f4 100%);
+    /* prevents padding from adding to height and width */
+    box-sizing: border-box;
+    position: relative;
+  }
+  #sbs-253 .cs-container:before,
+  #sbs-r-253 .cs-container:before,
+  #sbs-t-253 .cs-container:before {
+    /* Bottom Line */
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #b4b2c7;
+    background: linear-gradient(83deg, #b4b2c7 0%, rgba(250, 251, 252, 0.005) 0%, #b4b2c7 100%);
+    opacity: 1;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 0;
+  }
+  #sbs-253 .cs-container:after,
+  #sbs-r-253 .cs-container:after,
+  #sbs-t-253 .cs-container:after {
+    /* Right Line */
+    content: '';
+    width: 1px;
+    height: 100%;
+    background: #b4b2c7;
+    background: linear-gradient(180deg, #b4b2c7 0%, rgba(250, 251, 252, 0.005) 0%, #b4b2c7 100%);
+    opacity: 1;
+    position: absolute;
+    display: block;
+    bottom: 0;
+    right: 0;
+  }
+  #sbs-253 .cs-lines,
+  #sbs-r-253 .cs-lines,
+  #sbs-t-253 .cs-lines {
+    display: none;
+  }
+  #sbs-253 .cs-left,
+  #sbs-r-253 .cs-left,
+  #sbs-t-253 .cs-left {
+    width: 100%;
+    max-width: 32.625em;
+    margin: 0 auto 3em;
+    border: 1px solid var(--primary);
+    position: relative;
+    display: block;
+    /* width divided by height */
+    aspect-ratio: 1;
+    /* prevents border from adding to height and width */
+    box-sizing: border-box;
+  }
+  #sbs-253 .cs-left img,
+  #sbs-r-253 .cs-left img,
+  #sbs-t-253 .cs-left img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  #sbs-253 .cs-right,
+  #sbs-r-253 .cs-right,
+  #sbs-t-253 .cs-right {
+    margin: auto;
+    max-width: 33.875em;
+  }
+  #sbs-253 .cs-topper,
+  #sbs-r-253 .cs-topper,
+  #sbs-t-253 .cs-topper {
+    font-size: var(--topperFontSize);
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: .1em;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 1rem;
+    display: block;
+  }
+  #sbs-253 .cs-title,
+  #sbs-r-253 .cs-title,
+  #sbs-t-253 .cs-title {
+    font-size: var(--headerFontSize);
+    font-weight: 900;
+    line-height: 1.2em;
+    text-align: left;
+    max-width: 27.125rem;
+    margin: 0 auto 1rem 0;
+    color: var(--headerColor);
+    position: relative;
+  }
+  #sbs-253 .cs-text,
+  #sbs-r-253 .cs-text,
+  #sbs-t-253 .cs-text {
+    font-size: var(--bodyFontSize);
+    line-height: 1.5em;
+    text-align: left;
+    width: 100%;
+    max-width: 46.875rem;
+    margin: 0 auto 0 0;
+    margin-bottom: 1rem;
+    color: var(--bodyTextColor);
+  }
+  #sbs-253 .cs-text:last-of-type,
+  #sbs-r-253 .cs-text:last-of-type,
+  #sbs-t-253 .cs-text:last-of-type {
+    margin-bottom: 2.5rem;
+  }
+  #sbs-253 .cs-button-solid,
+  #sbs-r-253 .cs-button-solid,
+  #sbs-t-253 .cs-button-solid {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875em, 5.5vw, 3.5em);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+    min-width: 9.375rem;
+    padding: 0 1.5rem;
+    background-color: var(--primaryLight);
+    border-radius: 0.25rem;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+  }
+  #sbs-253 .cs-button-solid:before,
+  #sbs-r-253 .cs-button-solid:before,
+  #sbs-t-253 .cs-button-solid:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    background: #000;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 0.25rem;
+    transition: width .3s;
+  }
+  #sbs-253 .cs-button-solid:hover:before,
+  #sbs-r-253 .cs-button-solid:hover:before,
+  #sbs-t-253 .cs-button-solid:hover:before {
+    width: 100%;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48em) {
+  #sbs-253 .cs-container,
+  #sbs-r-253 .cs-container,
+  #sbs-t-253 .cs-container {
+    max-width: 80rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #sbs-253 .cs-left,
+  #sbs-r-253 .cs-left,
+  #sbs-t-253 .cs-left {
+    width: 48%;
+    /* 415px - 522px */
+    height: clamp(25.9375rem, 37.5vw, 32.625rem);
+    margin: 0;
+    /* 44px - 108px */
+    margin-right: clamp(2.75rem, 5.5vw, 6.75rem);
+    flex: none;
+  }
+  #sbs-253 .cs-right,
+  #sbs-r-253 .cs-right,
+  #sbs-t-253 .cs-right {
+    max-width: 33rem;
+    margin: 0;
+    width: 45%;
+    flex: none;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0em) {
+  body.dark-mode #sbs-253 .cs-container,
+  body.dark-mode #sbs-r-253 .cs-container,
+  body.dark-mode #sbs-t-253 .cs-container {
+    background: linear-gradient(90deg, rgba(241, 241, 244, 0) 0%, var(--medium) 100%);
+  }
+  body.dark-mode #sbs-253 .cs-topper,
+  body.dark-mode #sbs-r-253 .cs-topper,
+  body.dark-mode #sbs-t-253 .cs-topper {
+    color: var(--primaryLight);
+  }
+  body.dark-mode #sbs-253 .cs-title,
+  body.dark-mode #sbs-r-253 .cs-title,
+  body.dark-mode #sbs-t-253 .cs-title,
+  body.dark-mode #sbs-253 .cs-text,
+  body.dark-mode #sbs-r-253 .cs-text,
+  body.dark-mode #sbs-t-253 .cs-text {
+    color: var(--bodyTextColorWhite);
+  }
+}
+
+/*-- -------------------------- -->
+<---   Side By Side Reverse     -->
+<--- -------------------------- -*/
+
+/* Mobile - 360px */
+@media only screen and (min-width: 0em) {
+  #sbs-r-253 .cs-container {
+    background: linear-gradient(90deg, #f1f1f4 0%, rgba(241, 241, 244, 0) 100%);
+  }
+  #sbs-r-253 .cs-container:before {
+    background: #b4b2c7;
+    background: linear-gradient(270deg, #b4b2c7 0%, rgba(250, 251, 252, 0.005) 0%, #b4b2c7 100%);
+  }
+  #sbs-r-253 .cs-container:after {
+    left: 0;
+  }
+  #sbs-r-253 .cs-left {
+    margin-right: 0;
+    order: 2;
+  }
+}
+/* Tablet - 768px */
+@media only screen and (min-width: 48em) {
+  #sbs-r-253 .cs-left {
+    margin-right: 0;
+    margin-left: clamp(2.75rem, 5.5vw, 6.75rem);
+    order: 2;
+  }
+}
+/* Dark Mode */
+@media only screen and (min-width: 0em) {
+  body.dark-mode #sbs-r-253 .cs-container {
+    background: linear-gradient(90deg, var(--medium) 0%, rgba(241, 241, 244, 0) 100%);
+  }
+}
                                 
                                 
 /*-- -------------------------- -->
@@ -121,307 +387,170 @@
 }
 
 /*-- -------------------------- -->
-<---           Blog             -->
+<---    Recent Blog Articles    -->
 <--- -------------------------- -*/
-
 /* Mobile - 360px */
-@media only screen and (min-width: 0rem) {
-  :root {
-    /* remove this whole :root and put in your global css file that's shared on all pages, then just remove this section from all other Stitches you add later, only need this once in your global stylesheet */
-    --primary: #00715D;
-    --primaryLight: #d8673d;
-    --secondary: #FDD65B;
-    --secondaryLight: #FFBA43;
-    --headerColor: #1a1a1a;
-    --bodyTextColor: #4E4B66;
-    --bodyTextColorWhite: #FAFBFC;
-    /* 13px - 16px */
-    --topperFontSize: clamp(0.8125rem, 1.6vw, 1rem);
-    /* 31px - 49px */
-    --headerFontSize: clamp(1.9375rem, 3.9vw, 3.0625rem);
-    --bodyFontSize: 1rem;
-    /* 60px - 100px top and bottom */
-    --sectionPadding: clamp(3.75rem, 7.82vw, 6.25rem) 1rem;
-  }
-  #blog-1144 {
-    /* remove the font family so the Stitch inherits the fonts from your global stylesheet */
-    font-family: 'Roboto', 'Arial', sans-serif;
-    padding: var(--sectionPadding);
-    background-color: #FFFBEF;
-    position: relative;
-    z-index: 1;
-    margin-top: 4em;
-  }
-  #blog-1144 .cs-container {
-    width: 100%;
-    /* changes to 1280px at tablet */
-    max-width: 49rem;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* 48px - 64px */
-    gap: clamp(3rem, 6vw, 4rem);
-  }
-  #blog-1144 .cs-content {
-    /* set text align to left if content needs to be left aligned */
-    text-align: left;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    /* centers content horizontally, set to flex-start to left align */
-    align-items: flex-start;
-  }
-  #blog-1144 .cs-topper {
-    font-size: var(--topperFontSize);
-    line-height: 1.2em;
-    text-transform: uppercase;
-    text-align: inherit;
-    letter-spacing: .1em;
-    font-weight: 700;
-    color: var(--primary);
-    margin-bottom: 0.25rem;
-    display: block;
-  }
-  #blog-1144 .cs-title {
-    font-size: var(--headerFontSize);
-    font-weight: 900;
-    line-height: 1.2em;
-    text-align: inherit;
-    max-width: 43.75rem;
-    margin: 0 0 1rem 0;
-    color: var(--headerColor);
-    position: relative;
-  }
-  #blog-1144 .cs-title {
-    /* Override.  cs-topper cs-title and first cs-text should be removed and put into your global css sheet so it can control every instance of them on your site and is consistent. This selector is a section specific override that stays inside this stitch */
-    /* max width of 18 characters, incldues spaces between words */
-    max-width: 20ch;
-  }
-  #blog-1144 .cs-button-solid {
-    font-size: 1rem;
-    /* 46px - 56px */
-    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
-    text-decoration: none;
-    font-weight: 700;
-    text-align: center;
-    margin: 0;
-    color: #1a1a1a;
-    min-width: 12.5rem;
-    padding: 0 1.5rem;
-    background-color: var(--secondary);
-    border-radius: 0.5rem;
-    display: inline-block;
-    position: relative;
-    z-index: 1;
-    /* prevents padding from adding to the width */
-    box-sizing: border-box;
-    transition: color .3s;
-  }
-  #blog-1144 .cs-button-solid:before {
-    content: '';
-    position: absolute;
-    height: 100%;
-    width: 0%;
-    background: #000;
-    opacity: 1;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    border-radius: 0.5rem;
-    transition: width .3s;
-  }
-  #blog-1144 .cs-button-solid:hover {
-    color: #fff;
-  }
-  #blog-1144 .cs-button-solid:hover:before {
-    width: 100%;
-  }
-  #blog-1144 .cs-card-group {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    gap: 1.25rem;
-  }
-  #blog-1144 .cs-item {
-    text-align: left;
-    list-style: none;
-    border-radius: 1rem;
+@media only screen and (min-width: 0em) {
+  .recent-articles {
     overflow: hidden;
-    background-color: #f7f7f7;
-    border: 1px solid #E8E8E8;
-    grid-column: span 12;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    position: relative;
-    z-index: 1;
-    transition: box-shadow 0.3s, transform 0.3s;
-  }
-  #blog-1144 .cs-item:hover {
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  }
-  #blog-1144 .cs-item:hover .cs-picture img {
-    opacity: .3;
-    transform: scale(1.1);
-  }
-  #blog-1144 .cs-picture {
-    width: 100%;
-    height: 15rem;
-    background-color: #1a1a1a;
-    border-bottom: 4px solid var(--primary);
-    overflow: hidden;
-    display: block;
-    /* prevents flexbox from squishing it */
+    max-width: 49.6875em;
     flex: none;
-    position: relative;
-    z-index: 1;
+    width: 100%;
   }
-  #blog-1144 .cs-picture img {
+  .recent-articles .blog-mainImage {
+    width: 100%;
+    height: clamp(200px, 30vw, 400px);
+    position: relative;
+    display: block;
+    border-radius: 0.5em 0.5em 0 0;
+    overflow: hidden;
+  }
+  .recent-articles .blog-mainImage img {
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
     object-fit: cover;
-    transition: transform .6s, opacity .3s;
   }
-  #blog-1144 .cs-flex {
-    height: 100%;
-    padding: 1.5rem;
-    /* prevents padding from affecting height and width */
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+  .recent-articles .article-group {
+    padding: clamp(30px, 5vw, 50px);
+    border: 1px solid #ebebeb;
+    border-radius: 0 0 0.5em 0.5em;
+  }
+  .recent-articles .blog-author-img {
+    width: 2em;
+    height: 2em;
     position: relative;
-    z-index: 2;
+    display: block;
+    border-radius: 50%;
+    overflow: hidden;
   }
-  #blog-1144 .cs-date {
-    font-size: 1rem;
-    line-height: 1.2em;
-    font-weight: 700;
-    text-align: inherit;
-    margin: 0;
-    padding: 0.5rem 1rem;
-    /* prevents padding from affecting height and width */
-    box-sizing: border-box;
-    background-color: var(--primary);
-    border-radius: 0.5rem 0.5rem 0 0;
-    color: #fff;
-    display: inline-block;
+  .recent-articles .blog-author-img img {
     position: absolute;
-    left: 1.5rem;
-    bottom: 100%;
-    z-index: 2;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
   }
-  #blog-1144 .cs-h3 {
-    font-size: 1.25rem;
-    text-align: inherit;
-    line-height: 1.2em;
+  .recent-articles .blog-authorGroup {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  .recent-articles .blog-author,
+  .recent-articles .blog-date {
+    font-size: 0.875rem;
+    color: var(--bodyText);
+    line-height: 1.5em;
+  }
+  .recent-articles .blog-dot {
+    width: 3px;
+    height: 3px;
+    background-color: var(--primary);
+    border-radius: 50%;
+    display: block;
+  }
+  .recent-articles .blog-h1 {
+    font-size: clamp(20px, 5vw, 32px);
+    line-height: 1.4em;
     font-weight: 700;
-    color: var(--headerColor);
-    margin: 0 0 0.75rem 0;
+    margin: 1rem 0;
+    color: var(--bodyHeader);
+  }
+  .recent-articles .blog-desc {
+    font-size: 1rem;
+    line-height: 1.5em;
+    margin: 1rem 0 2rem;
+    color: var(--bodyText);
+  }
+  .recent-articles .blog-link {
+    font-size: 1rem;
+    /* 46px - 56px */
+    line-height: clamp(2.875em, 5.5vw, 3.5em);
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+    min-width: 9.375rem;
+    padding: 0 1.5rem;
+    background-color: var(--bodyHeader);
+    border-radius: 0.25rem;
+    display: inline-block;
+    position: relative;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+    z-index: 1;
     transition: color .3s;
   }
-  #blog-1144 .cs-item-text {
-    /* 14px - 16px */
-    font-size: clamp(0.875rem, 1.5vw, 1rem);
-    line-height: 1.5em;
-    text-align: inherit;
-    margin: 0 0 1.25rem;
-    color: var(--bodyTextColor);
+  .recent-articles .blog-link:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    border-radius: 0.25rem;
+    transition: opacity .3s;
+    border: 1px solid var(--bodyHeader);
+    z-index: -1;
   }
-  #blog-1144 .cs-link {
-    font-size: 1rem;
-    line-height: 1.2em;
-    font-weight: 700;
-    text-decoration: none;
-    margin-top: auto;
-    color: var(--primary);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  .recent-articles .blog-link:hover {
+    color: var(--bodyHeader);
   }
-  #blog-1144 .cs-link:hover .cs-arrow {
-    transform: translateX(0.25rem);
-  }
-  #blog-1144 .cs-arrow {
-    width: 1.25rem;
-    height: auto;
-    transition: transform .3s;
+  .recent-articles .blog-link:hover:before {
+    opacity: 1;
   }
 }
-/* Tablet - 768px */
-@media only screen and (min-width: 48rem) {
-  #blog-1144 .cs-container {
-    max-width: 80rem;
-  }
-  #blog-1144 .cs-content {
-    text-align: left;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-end;
-  }
-  #blog-1144 .cs-title {
-    margin: 0;
-  }
-  #blog-1144 .cs-item {
-    grid-column: span 4;
+/* Mobile - 1024px */
+@media only screen and (min-width: 64em) {
+  .recent-articles .blog-h1 {
+    max-width: 31.25rem;
   }
 }
 /* Dark Mode */
-@media only screen and (min-width: 0rem) {
-  body.dark-mode #blog-1144:before {
-    content: '';
-    width: 100%;
-    height: 100%;
-    background: var(--dark);
-    opacity: .9;
-    position: absolute;
-    display: block;
-    top: 0;
-    left: 0;
-    z-index: -1;
+@media only screen and (min-width: 0em) {
+  body.dark-mode .recent-articles .blog-h1,
+  body.dark-mode .recent-articles .blog-desc,
+  body.dark-mode .recent-articles .blog-author,
+  body.dark-mode .recent-articles .blog-date {
+    color: #f7f7f7;
   }
-  body.dark-mode #blog-1144 .cs-topper {
-    color: var(--secondary);
+  body.dark-mode .blog-sidebar .feature-h3,
+  body.dark-mode .blog-sidebar .feature-date,
+  body.dark-mode .blog-sidebar .blog-header {
+    color: #f7f7f7;
   }
-  body.dark-mode #blog-1144 .cs-title,
-  body.dark-mode #blog-1144 .cs-text,
-  body.dark-mode #blog-1144 .cs-h3,
-  body.dark-mode #blog-1144 .cs-link,
-  body.dark-mode #blog-1144 .cs-item-text {
-    color: var(--bodyTextColorWhite);
+  body.dark-mode .blog-sidebar .blog-header:after {
+    background: var(--primary);
   }
-  body.dark-mode #blog-1144 .cs-text,
-  body.dark-mode #blog-1144 .cs-item-text {
+  body.dark-mode .blog-article .blog-h1,
+  body.dark-mode .blog-article .blog-author,
+  body.dark-mode .blog-article .blog-date {
+    color: #f7f7f7;
+  }
+  body.dark-mode .blog-article #blog-content h2,
+  body.dark-mode .blog-article #blog-content h3,
+  body.dark-mode .blog-article #blog-content h4,
+  body.dark-mode .blog-article #blog-content h5,
+  body.dark-mode .blog-article #blog-content h6 {
+    color: #f7f7f7;
+  }
+  body.dark-mode .blog-article #blog-content p,
+  body.dark-mode .blog-article #blog-content li {
+    color: #f7f7f7;
     opacity: .8;
   }
-  body.dark-mode #blog-1144 .cs-item {
-    background-color: rgba(0, 0, 0, 0.2);
-    border-color: rgba(255, 255, 255, 0.2);
-  }
-  body.dark-mode #blog-1144 .cs-item:before {
-    opacity: .3;
-  }
-  body.dark-mode #blog-1144 .cs-picture {
-    border-color: #fff;
-  }
-  body.dark-mode #blog-1144 .cs-date {
-    background-color: #fff;
-  }
-  body.dark-mode #blog-1144 .cs-date {
-    color: var(--primary);
-  }
-  body.dark-mode #blog-1144 .cs-arrow,
-  body.dark-mode #blog-1144 .cs-floater {
-    filter: grayscale(1) brightness(1000%);
+  body.dark-mode .blog-article #blog-content a {
+    color: #9dafe5;
   }
 }
-                                
 /*-- -------------------------- -->
 <---          Sidebar           -->
 <--- -------------------------- -*/
