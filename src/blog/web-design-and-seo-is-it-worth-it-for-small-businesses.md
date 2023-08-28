@@ -14,7 +14,7 @@ tags:
   - post
   - featured
   - tech
-image: /images/blog/coders-huge.jpeg
+image: /images/blog/coders-med.webp
 imageAlt: Web Design
 ---
 <!--StartFragment-->
