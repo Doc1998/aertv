@@ -1,6 +1,6 @@
 ---
-pageName: "Unlocking Success in the Digital Landscape: A Deep Dive into Internet
-  Marketing Strategies"
+pageName: Unlocking Success in the Digital Landscape A Deep Dive into Internet
+  Marketing Strategies
 blogTitle: "Unlocking Success in the Digital Landscape: A Deep Dive into
   Internet Marketing Strategies"
 titleTag: "Unlocking Success in the Digital Landscape: A Deep Dive into Internet
