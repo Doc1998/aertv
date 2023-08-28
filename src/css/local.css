@@ -1402,6 +1402,13 @@
     margin: 0 0 1.25rem 0;
     color: var(--bodyTextColor);
     display: block;
+    
+  }
+  .cs-item-link-text{
+    font-size: 1rem;
+    color: var(--bodyTextColor);
+
+    text-decoration: none;
   }
   #blog-845 .cs-link {
     font-size: 1rem;
